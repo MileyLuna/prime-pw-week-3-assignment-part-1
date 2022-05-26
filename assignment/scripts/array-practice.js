@@ -32,15 +32,15 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-console.log('Second Favorite Food is', favFood[2]);
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-
+console.log('last animal is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
 
-
+console.log('last animal is', animalArray[animalArray.length - 1])
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -82,8 +82,8 @@ console.log('The animals are now', animalArray);
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
 removedFood = favFood.shift();
-console.log('Removed first food', removedFood);
-console.log('Food list are now', favFood);
+console.log('Removed first food:', removedFood);
+console.log('Food list are now:', favFood);
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
